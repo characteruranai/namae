@@ -1,0 +1,57 @@
+<html>
+ <head>
+   <script>
+   function kekka(){
+     nam=document.myform.name.value;
+     var r=Math.floor(Math.random()*11);
+  if(nam==""){
+    alert("名前を入力してください");
+  }else if(r==0){
+location.href="pikacyu.html";
+}else if(r==1){
+location.href="hanakappa.html";
+}else if(r==2){
+location.href="kaby.html";
+}else if(r==3){
+location.href="mario.html";
+}else if(r==4){
+location.href="memetti.html";
+}else if(r==5){
+location.href="naruto.html";
+}else if(r==6){
+location.href="rufy.html";
+}else if(r==7){
+location.href="sazae.html";
+}else if(r==8){
+location.href="snoopy.html";
+}else if(r==9){
+location.href="spongebob.html";
+}else {
+location.href="tomasu.html";
+}
+
+}
+   </script>
+ </head>
+ <body>
+   <body bgcolor=lightgreen>
+     <form name="myform">
+   <br>
+   <br>
+   <br>
+  <center>
+   <H?><font size=7><font color="orange">キャラクター占い</font></font></H?>
+   <font size=4>
+   <br>あなたにぴったりのキャラクターを占います．
+   <br>自分の名前を下に入力してください．
+   <br>
+   <input type="text" name="name" size="10" >
+   </font>
+   <br>
+
+   <a href="#" onclick="kekka()">占う</a>
+
+ </center>
+</form>
+ </body>
+</html>
